@@ -2,5 +2,6 @@
 using namespace std;
 
 int main() {
-	cout << ":D";
+	cout << ":DD";
 }
+afsfasfasfsafsa
