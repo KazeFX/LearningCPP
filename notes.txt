@@ -1,0 +1,8 @@
+Unsigned int can't be negative. Avoid arithetics on variables.
+
+Initialize variables with { x } instead of =.
+
+Literals: Value types in variables.
+
+float literals with .0, remove 0. Ex. 4.0 to 4.
+
