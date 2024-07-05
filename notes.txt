@@ -6,3 +6,10 @@ Literals: Value types in variables.
 
 float literals with .0, remove 0. Ex. 4.0 to 4.
 
+Lookup LNK2005 error. Project solution failed.
+
+Next:
+	inheritence
+	headers
+	objects
+	maybe pointers
