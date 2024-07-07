@@ -6,6 +6,21 @@ void switchStatementsTest();
 void goToTest();
 
 
+bool isDead{ true };
+ 
+int GetHealth() {
+	return isDead ? 0 : 50;
+	return 100;
+}
+
+int Health{ GetHealth() };
+
+void TakeDamage() {
+	cout << " - TakeDamage function starting\n";
+	Health -= 50;
+	cout << " - TakeDamage function complete\n";
+}
+
 
 
 void lovely2dMatrix() {
@@ -36,7 +51,7 @@ void switchStatementsTest() {
 }
 
 void goToTest() {
-	int n = 10;
+	int n{ 10 };
 mylabel:
 	cout << n << ", ";
 	n--;
@@ -45,10 +60,10 @@ mylabel:
 }
 
 
-
 int main() {
 	//lovely2dMatrix();
 	//switchStatementsTest();
-	goToTest();
+	//goToTest();
+	cout << Health;
 	return 0;
 }

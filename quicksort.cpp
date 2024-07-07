@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 #include <stdio.h>
 using namespace std;
 
@@ -59,7 +59,7 @@ void quickSort(int arr[], int beginning, int end)
 
 
 // quicksort main
-int main()
+int runMatrix()
 {
 	// Initialize array elements.
 	int arr[] = { 5, 9, 44, 4, 22, 1, 8, 13, 53, 12, 35 };
@@ -73,4 +73,3 @@ int main()
 
 	return 0;
 }
-*/
